@@ -1,0 +1,27 @@
+{
+  "name": "playwright-saucedemo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  },
+  "description": "- Login with valid credentials - Add item to cart and verify badge count - Remove item from cart/badge disappears - Checkout flow enter name, address/zipcode, complete order - Logout",
+  "main": "playwright.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0",
+    "playwright-core": "^1.55.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

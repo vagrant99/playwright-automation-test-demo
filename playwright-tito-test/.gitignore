@@ -1,0 +1,8 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore test results folder
+test-result/
+
+# Ignore Playwright report folder
+playwright-report/
