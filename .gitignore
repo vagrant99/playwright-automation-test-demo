@@ -1,4 +1,4 @@
-# Ignore macOS system files
+# Ignore macOS system files here
 .DS_Store
 
 # Ignore test results folder
