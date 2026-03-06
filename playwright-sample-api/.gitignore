@@ -2,7 +2,7 @@
 .DS_Store
 
 # Ignore test results folder here
-test-result/
+test-results/
 
 # Ignore Playwright report folder
 playwright-report/
