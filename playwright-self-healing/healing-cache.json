@@ -1,0 +1,17 @@
+{
+  "#user-name-input": {
+    "newLocator": "page.getByLabel('Username')",
+    "confidence": 0.95,
+    "timestamp": 1777280834542
+  },
+  "#pass-word-field": {
+    "newLocator": "page.getByLabel('Password')",
+    "confidence": 0.95,
+    "timestamp": 1777280837799
+  },
+  "#login-submit-button": {
+    "newLocator": "page.getByRole('button', { name: 'Login' })",
+    "confidence": 0.92,
+    "timestamp": 1777280841070
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "playwright-self-healing-js",
+  "version": "1.0.0",
+  "description": "Playwright self-healing tests dengan Groq LLM — JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test":        "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui":     "npx playwright test --ui",
+    "test:report": "npx playwright show-report --port 9324"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
+  },
+  "dependencies": {
+    "dotenv":    "^16.0.0",
+    "groq-sdk":  "^1.1.2"
+  }
+}

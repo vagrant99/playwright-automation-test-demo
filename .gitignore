@@ -6,3 +6,6 @@ test-result/
 
 # Ignore Playwright report folder
 playwright-report/
+
+# Dependencies
+node_modules/
